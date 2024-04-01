@@ -1,5 +1,6 @@
 package br.com.bncgabriel.servicex.categoria.domain;
 
+import br.com.bncgabriel.servicex.servico.domain.Servico;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -22,5 +23,5 @@ public class Categoria {
     private String nomeCategoria;
 
     @OneToMany(mappedBy = "categorias", cascade = CascadeType.ALL)
-    private List<Service> servicos;
+    private List<Servico> servicos;
 }
