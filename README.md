@@ -5,6 +5,4 @@ Just in case you dont know, that's an API in purpose to manage **Service Orders!
 
 ## If you want to test some methods I've made with Postman, here we go!
 ### **Category**
-'''
-
-'''
+(Continues in another moment...)
